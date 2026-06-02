@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Coastal Table | Personal Chef Services on the South Coast</title>
+  <meta name="description" content="The Coastal Table offers personal chef services on the South Coast, including private dining, dinner parties, weekly meal preparation and seasonal menus prepared beautifully in your home." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a href="#top" class="logo">The Coastal Table</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#menus">Menus</a>
+      <a href="#about">About</a>
+      <a href="#contact">Enquire</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal chef services on the South Coast</p>
+        <h1>Seasonal dining, thoughtfully prepared in your home.</h1>
+        <p class="hero-text">Private dinners, relaxed celebrations and weekly meal preparation crafted around beautiful ingredients, coastal flavours and the way you love to eat.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Book a consultation</a>
+          <a class="button secondary" href="#services">View services</a>
+        </div>
+      </div>
+      <div class="hero-image" aria-label="Elegant coastal dining table with seasonal food"></div>
+    </section>
+
+    <section class="intro-panel">
+      <p>For evenings that should feel special, hosting that feels effortless, and food that brings everyone back to the table.</p>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">What we offer</p>
+        <h2>Beautifully tailored chef services for home dining.</h2>
+      </div>
+      <div class="service-grid">
+        <article>
+          <span>01</span>
+          <h3>Private Dining</h3>
+          <p>Restaurant-style dinners at home, from intimate two-person evenings to elegant small gatherings.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Weekly Meal Prep</h3>
+          <p>Fresh, balanced meals prepared for your lifestyle, dietary needs and weekly routine.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Dinner Parties</h3>
+          <p>Stress-free hosting with bespoke menus, beautiful presentation and thoughtful service.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Celebrations</h3>
+          <p>Birthdays, anniversaries, brunches and relaxed occasions made memorable through food.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature section">
+      <div class="feature-image"></div>
+      <div class="feature-copy">
+        <p class="eyebrow">The experience</p>
+        <h2>Coastal, seasonal and quietly luxurious.</h2>
+        <p>Menus are designed around fresh produce, simple elegance and your personal tastes. Think candlelit tables, herb-led dishes, warm bread, fresh seafood, vibrant salads and comforting desserts.</p>
+        <ul>
+          <li>Bespoke menus for every booking</li>
+          <li>Vegetarian, vegan and gluten-free options</li>
+          <li>Ingredient sourcing and menu planning</li>
+          <li>Prepared, served and cleared with care</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menus section" id="menus">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Sample menus</p>
+        <h2>Fresh ideas for your table.</h2>
+      </div>
+      <div class="menu-cards">
+        <article>
+          <h3>Coastal Supper</h3>
+          <p>Whipped feta, lemon herbs, sea bass, roasted potatoes, seasonal greens and vanilla panna cotta.</p>
+        </article>
+        <article>
+          <h3>Garden Lunch</h3>
+          <p>Fresh focaccia, burrata, tomato salad, grilled chicken, herby grains and citrus tart.</p>
+        </article>
+        <article>
+          <h3>Slow Sunday</h3>
+          <p>Sharing plates, roast chicken, garlic potatoes, dressed leaves and a warm fruit crumble.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>A personal chef service designed around real homes.</h2>
+      </div>
+      <p>The Coastal Table brings calm, considered dining to homes across the South Coast. Whether you are planning a special dinner or want nourishing meals ready for the week, every detail is shaped around your taste, schedule and occasion.</p>
+    </section>
+
+    <section class="testimonial">
+      <p>“The whole evening felt effortless. The food was beautiful, the table felt special and we actually got to enjoy our guests.”</p>
+      <span>Private dinner client</span>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Enquire</p>
+        <h2>Tell us about your table.</h2>
+        <p>Share your date, guest numbers, location and any dietary needs. We’ll come back with menu ideas and availability.</p>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Service
+          <select name="service" required>
+            <option value="">Choose a service</option>
+            <option>Private dining</option>
+            <option>Weekly meal prep</option>
+            <option>Dinner party</option>
+            <option>Special occasion</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Date, location, guest numbers and food ideas"></textarea>
+        </label>
+        <button class="button primary" type="submit">Send enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> The Coastal Table</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
